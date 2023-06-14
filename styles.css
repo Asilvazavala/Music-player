@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/blob-scene-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.player {
+  width: 320px;
+  background-image: linear-gradient(#3D3056, #77629e);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  color: black;
+  box-shadow: 2px 2px 3px black;
+}
+
+.containerTitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0 0.7rem 0;
+  text-align: center;
+  max-width: 320px;
+  font-weight: bolder;
+  color: #E1685E;
+  font-size: 2.2rem;
+}
+
+.cover {
+  width: 256px;
+  height: 200px;
+  border-radius: .3rem;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.progress-Container {
+  height: .6rem;
+  background-color: lightgray;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.progress {
+  background-color: #FBAE3C;
+  width: 0%;
+  height: 100%;
+}
+
+.progress-Container span {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0 1rem 0;
+}
+
+.controls button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.controls i {
+  font-size: 2.5rem;
+  color: #FBAE3C;
+  transition: transform 0.3s ease;
+}
+
+.controls i:hover {
+  transform: scale(1.2);
+}
+
+.songs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.songs li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  transition: transform 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.songs li:hover {
+  transform: scale(1.2);
+}
+
+.songs a {
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+}
+
+.songs a.active {
+  color: black;
+  font-weight: bold;
+}

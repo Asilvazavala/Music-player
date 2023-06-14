@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="player">
+      <div class="containerTitle">
+        <h1 class="title" id="title"></h1>
+      </div>
+      
+      <img src="" alt="" class="cover" id="cover"/>
+      <audio src="" id="audio"></audio>
+
+      <div id="progressContainer" class="progress-Container">
+        <section id="progress" class="progress"></section>
+        <span id="durationCurrent"></span>
+      </div>
+
+      <section class="controls">
+        <button class="prev" title="Canción anterior">
+          <i id="prev" class='bx bx-skip-previous'></i>
+        </button>
+
+        <button class="play" title="Reproducir/Pausar">
+          <i id="play" class='bx bx-play' ></i>
+        </button>
+
+        <button class="next" title="Siguiente canción">
+          <i id="next" class='bx bx-skip-next' ></i>
+        </button>
+      </section>
+
+      <ul class="songs" id="songs">
+      </ul>
+    </main>
+  </body>
+</html>
