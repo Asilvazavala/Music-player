@@ -1,8 +1,8 @@
 const songList = [
   {
-    title: "Pokemon",
-    file: "pokemon.mp3",
-    cover: "pokemon.png"
+    title: "Metal Gear",
+    file: "metalGearSolid.mp3",
+    cover: "metalGearSolid.jpg"
   },
   {
     title: "Everlong",
