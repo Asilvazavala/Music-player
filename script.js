@@ -1,8 +1,8 @@
 const songList = [
   {
-    title: "Metal Gear",
-    file: "metalGearSolid.mp3",
-    cover: "metalGearSolid.jpg"
+    title: "Clocks",
+    file: "clocks.mp3",
+    cover: "clocks.jpg"
   },
   {
     title: "Everlong",
@@ -10,9 +10,9 @@ const songList = [
     cover: "everlong.jpg"
   },
   {
-    title: "She bangs the drums",
-    file: "sheBangsThedrums.mp3",
-    cover: "shebangsthedrums.jpg"
+    title: "Metal Gear",
+    file: "metalGearSolid.mp3",
+    cover: "metalGearSolid.jpg"
   }
 ]
 
